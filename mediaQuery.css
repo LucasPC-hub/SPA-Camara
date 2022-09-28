@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px){
+    main{
+        max-width: 480px;
+    }
+    .container1{
+        background-image: url("imagens/plenario-camara.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+    }
+    .flex-item1{
+        text-align: center;
+    }
+    .flex-item2{
+        text-align: center;
+        max-width: 480px;
+    }
+    .noticias-1{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .noticia-demo h3{
+        font-size: 100%;
+        margin-left: auto;
+    }
+    .noticia-demo p{
+        text-align: center;
+        align-self: center;
+        width: fit-content;
+    }
+    .noticias button{
+        width: 50%;
+        text-align: center;
+        margin-left: 130px;
+    }
+    #video{
+        width: 470px;
+        height: 300px;
+    }
+    .container2{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+    }
+    .container2 input{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .container2 textarea{
+        width: 450px;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .container2 button{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .tabelaa{
+        width: 480px;
+        overflow-x: auto;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1025px){
+    .container1{
+        background-image: url("imagens/plenario-camara.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+    }
+    .containerDep{
+        justify-content: center;
+        align-self: center;
+        max-width: 900px;
+        margin: auto;
+    }
+}
